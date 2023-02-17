@@ -1,0 +1,13 @@
+m=int(input("enter the maths marks:"))
+p=int(input("enter the physics marks:"))
+c=int(input("enter the chemistry marks:"))
+avg = (m+p+c)/3
+print("the average marks :",avg)
+if(avg>=90):
+    print("grade A")
+elif(avg < 90 and avg >=70):
+    print("grade B")
+elif(avg<70 and avg >=50):
+    print("grade C")
+else:
+    print("FAIL")
